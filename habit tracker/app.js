@@ -29,14 +29,16 @@
   function toast(message){const el=$('#toast');el.textContent=message;el.classList.add('show');clearTimeout(toastTimer);toastTimer=setTimeout(()=>el.classList.remove('show'),2300)}
   function render(){
     $('#top-date').textContent=fmtDate(today,{month:'short',day:'numeric',year:'numeric'});
-    const titles={today:'MY DAY',insights:'INSIGHTS',habits:'MY HABITS'};$('#section-title').textContent=titles[activeView];
+    const titles={today:'MY DAY',insights:'INSIGHTS',habits:'MY HABITS',rewards:'REWARDS'};$('#section-title').textContent=titles[activeView];
     document.querySelectorAll('.nav-item').forEach(b=>b.classList.toggle('active',b.dataset.view===activeView));
     const user=window.BARAKAH_USER;if(user){const name=user.user_metadata?.full_name||'My journey';$('.profile .avatar').textContent=(name.trim()[0]||'M').toUpperCase();$('.profile strong').textContent=name;$('.profile span').textContent=user.email||'Signed in';$('.profile').title='Click to sign out'}
     const container=$('#view-container');
     if(activeView==='today')container.innerHTML=renderToday();
     if(activeView==='insights')container.innerHTML=renderInsights();
     if(activeView==='habits')container.innerHTML=renderHabits();
+    if(activeView==='rewards')container.innerHTML=window.BarakahRewards.render(state,window.BARAKAH_USER);
     bindView();
+    if(activeView==='rewards')window.BarakahRewards.bind({state,render,toast});
     if(activeView==='insights')drawChart();
   }
   function renderToday(){
@@ -52,7 +54,7 @@
     </div>`;
   }
   function greeting(){const h=new Date().getHours();return h<12?'Good morning':h<17?'Good afternoon':'Good evening'}
-  function longestCurrentStreak(){let d=new Date(),n=0;while(n<366){const k=dayKey(d);if(!state.habits.length||completedCount(k)<state.habits.length)break;n++;d.setDate(d.getDate()-1)}return n}
+  function longestCurrentStreak(){return window.BarakahRewards.currentStreak(state)}
   function getLast7(){return Array.from({length:7},(_,i)=>{let d=new Date();d.setDate(d.getDate()-(6-i));return {date:d,key:dayKey(d),label:d.toLocaleDateString(undefined,{weekday:'short'})}})}
   function renderInsights(){
     const days=getLast7(), totalPossible=state.habits.length*7, done=days.reduce((n,d)=>n+completedCount(d.key),0), rate=totalPossible?Math.round(done/totalPossible*100):0;
