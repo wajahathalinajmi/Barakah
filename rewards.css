@@ -1,0 +1,37 @@
+.rewards-page{padding-bottom:36px}
+.reward-hero{display:flex;align-items:center;justify-content:space-between;overflow:hidden;position:relative;min-height:190px;margin:10px 0 20px;padding:27px 32px;border-radius:13px;background:#274a3b;color:#f4f2df}
+.reward-hero:after{content:"";position:absolute;width:290px;height:290px;right:80px;top:-180px;border:1px solid #ffffff18;border-radius:50%;box-shadow:0 0 0 28px #ffffff08,0 0 0 58px #ffffff06}
+.reward-hero-copy{position:relative;z-index:1;max-width:560px}
+.reward-hero-copy .reward-tier{color:#c7d1ae}
+.reward-hero-copy>strong{display:block;margin:5px 0 2px;font:700 54px/1 Manrope,sans-serif;letter-spacing:-2px}
+.reward-hero-copy>strong small{font-size:18px;letter-spacing:0;font-weight:500}
+.reward-hero-copy p{margin:9px 0 0;color:#d6dece;font-size:12px;line-height:1.6}
+.reward-hero-mark{position:relative;z-index:1;width:106px;height:106px;display:grid;place-items:center;flex:0 0 auto;margin-right:18px;border:1px solid #dce8b656;border-radius:50%;color:#e9ecbd;font-size:58px}
+.reward-tier{color:#8d9887;font-size:9px;font-weight:700;letter-spacing:1.4px}
+.reward-progress{margin-bottom:29px;padding:20px 22px}
+.reward-progress-top{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:14px}
+.reward-progress-top .eyebrow{margin:0 0 6px}
+.reward-progress-top h2{margin:0;font:600 17px Manrope,sans-serif;letter-spacing:-.3px}
+.reward-progress-top>strong{color:var(--green);font:700 17px Manrope,sans-serif;white-space:nowrap}
+.reward-rule{margin:11px 0 0;color:#90998d;font-size:10px;line-height:1.6}
+.reward-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.reward-card{--reward-color:#82966b;min-height:134px;display:flex;align-items:center;gap:14px;padding:15px;border:1px solid #e8ebe3;border-radius:11px;background:#fff;transition:transform .18s ease,border-color .18s ease,box-shadow .18s ease}
+.reward-card.unlocked{border-color:color-mix(in srgb,var(--reward-color) 34%,#e8ebe3)}
+.reward-card.unlocked:hover{transform:translateY(-2px);box-shadow:0 10px 25px #24372f0c}
+.reward-card.locked{background:#fbfbf8}
+.reward-medal{width:54px;height:54px;display:grid;place-items:center;flex:0 0 auto;border-radius:50%;background:#f1f2ed;color:#aeb5a8;font-size:23px}
+.reward-card.unlocked .reward-medal{border:4px solid color-mix(in srgb,var(--reward-color) 24%,#fff);background:var(--reward-color);color:#fff}
+.reward-card-copy{min-width:0;flex:1}
+.reward-card-copy .reward-tier{font-size:8px;letter-spacing:1px}
+.reward-card-copy h3{margin:5px 0;color:#34473a;font:700 13px Manrope,sans-serif;letter-spacing:-.2px}
+.reward-card-copy p{margin:0;color:#969e92;font-size:10px}
+.reward-share{height:30px;padding:0 9px;white-space:nowrap;font-size:9px}
+.reward-share:disabled{opacity:.6;cursor:wait}
+.reward-lock{align-self:flex-end;color:#adb3a8;font-size:10px;white-space:nowrap}
+.reward-share-panel{margin-top:17px;padding:16px 19px}
+.reward-share-panel>p{margin:8px 0 0 25px;color:#92998f;font-size:10px;line-height:1.6}
+.reward-name-toggle{display:flex;align-items:center;gap:9px;color:#526253;font-size:11px;font-weight:600;cursor:pointer}
+.reward-name-toggle input{accent-color:#537252}
+@media(max-width:1100px){.reward-grid{grid-template-columns:1fr}.reward-card{min-height:116px}}
+@media(max-width:700px){.reward-hero{min-height:165px;padding:22px}.reward-hero-mark{width:78px;height:78px;margin-right:0;font-size:42px}.reward-hero-copy>strong{font-size:46px}.reward-card{flex-wrap:wrap}.reward-card-copy{min-width:calc(100% - 72px)}.reward-share,.reward-lock{margin-left:68px}}
+@media(max-width:430px){.reward-hero{padding:19px}.reward-hero-mark{width:64px;height:64px;font-size:34px}.reward-hero-copy>strong{font-size:40px}.reward-progress{padding:17px}.reward-progress-top h2{font-size:14px}.reward-card{gap:10px;padding:13px}.reward-card-copy h3{font-size:12px}}
