@@ -11,18 +11,20 @@
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
   <link rel="stylesheet" href="rewards.css" />
+  <link rel="stylesheet" href="spiritual.css" />
 </head>
 <body>
   <div id="auth-root" class="auth-root"></div>
   <div class="app-shell" id="app-shell" hidden>
     <aside class="sidebar">
       <a class="brand" href="#" aria-label="Barakah home"><span class="brand-mark">✳</span><span>barakah<span class="brand-period">.</span></span></a>
-      <p class="nav-label">WORKSPACE</p>
+      <p class="nav-label">YOUR JOURNEY</p>
       <nav class="nav-list" aria-label="Main navigation">
-        <button class="nav-item active" data-view="today"><span class="nav-icon">◷</span>My day</button>
-        <button class="nav-item" data-view="insights"><span class="nav-icon">▥</span>Insights</button>
-        <button class="nav-item" data-view="habits"><span class="nav-icon">☷</span>My habits</button>
+        <button class="nav-item active" data-view="today"><span class="nav-icon">⌂</span>Home</button>
+        <button class="nav-item" data-view="quran"><span class="nav-icon">۞</span>Qur’an</button>
+        <button class="nav-item" data-view="habits"><span class="nav-icon">☷</span>Habits</button>
         <button class="nav-item" data-view="rewards"><span class="nav-icon">✦</span>Rewards</button>
+        <button class="nav-item" data-view="profile"><span class="nav-icon">◉</span>Profile</button>
       </nav>
       <div class="sidebar-bottom">
         <div class="quote-card"><span class="quote-icon">✦</span><p>“The most beloved deeds to Allah are those that are most consistent, even if they are small.”</p><span class="quote-source">— Prophet Muhammad ﷺ</span></div>
@@ -48,6 +50,7 @@
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="supabase-config.js"></script>
   <script src="rewards.js"></script>
+  <script src="spiritual.js"></script>
   <script src="auth.js"></script>
 </body>
 </html>
