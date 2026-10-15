@@ -1,6 +1,7 @@
 (() => {
   let adhkarPromise;
   let cataloguePromise;
+  let propheticPromise;
 
   async function getJson(url) {
     const response = await fetch(url, { headers: { Accept: 'application/json' } });
@@ -60,6 +61,15 @@
       const entry = catalogue.entries.find(item => item.id === entryId || item.slug === entryId);
       if (!entry) throw new Error('That supplication was not found in the bundled collection.');
       return entry;
+    },
+    async loadPropheticAdhkar() {
+      if (!propheticPromise) propheticPromise = getJson('data/prophetic-adhkar.json').then(data => {
+        if (!Array.isArray(data?.groups) || data.groups.length < 10 || !data.groups.every(group => group.name && Array.isArray(group.items) && group.items.every(item => /^\d{1,3}:\d{1,3}$/.test(item.ayah)))) {
+          throw new Error('The prophetic adhkar collection is incomplete or has an unexpected format.');
+        }
+        return data;
+      }).catch(error => { propheticPromise = null; throw error; });
+      return propheticPromise;
     }
   };
 })();
