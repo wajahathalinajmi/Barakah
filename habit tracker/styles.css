@@ -7,3 +7,8 @@
 
 
 .profile-name{font:700 11px Manrope,sans-serif;text-align:left}
+
+@media(max-width:620px){
+  .greeting-row{gap:14px}
+  .day-controls{align-self:flex-end;margin-top:0}
+}
