@@ -1,0 +1,25 @@
+{
+  "source": "https://quran.com/duas/prophets",
+  "quranSource": "https://alquran.cloud/api",
+  "groups": [
+    {"id":"adam","name":"Adam عليه السلام","items":[{"ayah":"7:23"}]},
+    {"id":"nuh","name":"Nuh عليه السلام","items":[{"ayah":"11:47"},{"ayah":"71:26"},{"ayah":"71:28"}]},
+    {"id":"ibrahim","name":"Ibrahim عليه السلام","items":[{"ayah":"2:127"},{"ayah":"2:128"},{"ayah":"2:129"},{"ayah":"14:35"},{"ayah":"14:36"},{"ayah":"14:37"},{"ayah":"14:40"},{"ayah":"14:41"},{"ayah":"26:83"},{"ayah":"26:84"},{"ayah":"26:85"},{"ayah":"26:86"},{"ayah":"26:87"},{"ayah":"26:88"},{"ayah":"26:89"}]},
+    {"id":"lut","name":"Lut عليه السلام","items":[{"ayah":"26:169"},{"ayah":"29:30"}]},
+    {"id":"shuaib","name":"Shuʿayb عليه السلام","items":[{"ayah":"7:89"}]},
+    {"id":"musa","name":"Musa عليه السلام","items":[{"ayah":"5:25"},{"ayah":"7:143"},{"ayah":"10:88"},{"ayah":"20:25"},{"ayah":"20:26"},{"ayah":"20:27"},{"ayah":"20:28"},{"ayah":"28:16"},{"ayah":"28:24"}]},
+    {"id":"ayyub","name":"Ayyub عليه السلام","items":[{"ayah":"21:83"}]},
+    {"id":"yunus","name":"Yunus عليه السلام","items":[{"ayah":"21:87"}]},
+    {"id":"zakariya","name":"Zakariya عليه السلام","items":[{"ayah":"3:38"},{"ayah":"19:4"},{"ayah":"19:5"},{"ayah":"19:6"},{"ayah":"21:89"}]},
+    {"id":"dawud","name":"Dawud عليه السلام","items":[{"ayah":"38:24"}],"hadith":[{"arabic":"اللَّهُمَّ إِنِّي أَسْأَلُكَ حُبَّكَ وَحُبَّ مَنْ يُحِبُّكَ وَالْعَمَلَ الَّذِي يُبَلِّغُنِي حُبَّكَ، اللَّهُمَّ اجْعَلْ حُبَّكَ أَحَبَّ إِلَيَّ مِنْ نَفْسِي وَأَهْلِي وَمِنَ الْمَاءِ الْبَارِدِ","meaning":"O Allah, I ask for Your love, the love of those who love You, and deeds that bring me to Your love. Make Your love dearer to me than myself, my family, and cold water.","source":"Jamiʿ at-Tirmidhi 3490 · Hasan","url":"https://sunnah.com/tirmidhi:3490","note":"The Prophet ﷺ narrated this as part of Dawud’s supplication."}]},
+    {"id":"sulayman","name":"Sulayman عليه السلام","items":[{"ayah":"27:19"},{"ayah":"38:35"}]},
+    {"id":"isa","name":"Isa عليه السلام","items":[{"ayah":"5:114"}]},
+    {"id":"yaqub","name":"Yaqub عليه السلام","items":[{"ayah":"12:86"},{"ayah":"12:98"}]},
+    {"id":"yusuf","name":"Yusuf عليه السلام","items":[{"ayah":"12:33"},{"ayah":"12:101"}]},
+    {"id":"muhammad","name":"Muhammad ﷺ","items":[{"ayah":"17:80"},{"ayah":"20:114"},{"ayah":"23:93"},{"ayah":"23:94"},{"ayah":"23:97"},{"ayah":"23:98"}],"hadith":[
+      {"arabic":"اللَّهُمَّ رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً، وَفِي الْآخِرَةِ حَسَنَةً، وَقِنَا عَذَابَ النَّارِ","meaning":"Our Lord, grant us good in this world and the next, and protect us from the punishment of the Fire.","source":"Sahih al-Bukhari 6389","url":"https://sunnah.com/bukhari:6389","note":"Anas reported this as the Prophet’s ﷺ most frequent supplication."},
+      {"arabic":"اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْهَمِّ وَالْحَزَنِ، وَالْعَجْزِ وَالْكَسَلِ، وَالْجُبْنِ وَالْبُخْلِ، وَضَلَعِ الدَّيْنِ، وَغَلَبَةِ الرِّجَالِ","meaning":"O Allah, I seek Your protection from worry and grief, incapacity and laziness, cowardice and miserliness, the burden of debt, and being overpowered.","source":"Sahih al-Bukhari 6369","url":"https://sunnah.com/bukhari:6369"},
+      {"arabic":"اللَّهُمَّ أَصْلِحْ لِي دِينِيَ الَّذِي هُوَ عِصْمَةُ أَمْرِي، وَأَصْلِحْ لِي دُنْيَايَ الَّتِي فِيهَا مَعَاشِي، وَأَصْلِحْ لِي آخِرَتِيَ الَّتِي فِيهَا مَعَادِي","meaning":"O Allah, set right my faith, my worldly life, and my Hereafter; make life an increase in every good and make death a relief from every evil.","source":"Sahih Muslim 2720","url":"https://sunnah.com/muslim:2720"}
+    ]}
+  ]
+}
