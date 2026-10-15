@@ -82,6 +82,12 @@
     }
     window.BARAKAH_INITIAL_STATE = data?.data && Array.isArray(data.data.habits) && data.data.logs ? data.data : {habits:[],logs:{}};
     window.BARAKAH_USER = user;
+    window.BARAKAH_UPDATE_PROFILE = async fullName => {
+      const {data,error} = await client.auth.updateUser({data:{full_name:fullName}});
+      if (error) throw error;
+      window.BARAKAH_USER = data.user;
+      return data.user;
+    };
     let persistQueue = Promise.resolve();
     window.BARAKAH_PERSIST = state => {
       const snapshot = JSON.parse(JSON.stringify(state));

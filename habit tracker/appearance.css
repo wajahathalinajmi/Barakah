@@ -1,0 +1,132 @@
+:root[data-theme="dark"]{color-scheme:dark;--ink:#e4ebe4;--muted:#a2afa3;--paper:#111813;--white:#19221c;--green:#c0d0a7;--green2:#a3bd9c;--mint:#27352a;--lime:#b8ca7b;--sand:#252a22;--line:#2b372e;--coral:#e0a18b;--shadow:0 14px 42px #0005}
+:root[data-theme="dark"] body{background:var(--paper);color:var(--ink)}
+:root[data-theme="dark"] .sidebar{background:#151e18;border-color:var(--line)}
+:root[data-theme="dark"] .brand,:root[data-theme="dark"] .nav-item.active,:root[data-theme="dark"] .nav-icon{color:#c2d3ad}
+:root[data-theme="dark"] .nav-item{color:#a0ada1}
+:root[data-theme="dark"] .nav-item.active{background:#29372c}
+:root[data-theme="dark"] .quote-card,:root[data-theme="dark"] .panel,:root[data-theme="dark"] .stat-card,:root[data-theme="dark"] .habit-card,:root[data-theme="dark"] .manage-card,:root[data-theme="dark"] .empty-state,:root[data-theme="dark"] .quran-verses,:root[data-theme="dark"] .surah-title,:root[data-theme="dark"] .reader-toolbar,:root[data-theme="dark"] .profile-settings,:root[data-theme="dark"] .profile-panel,:root[data-theme="dark"] .library-collection,:root[data-theme="dark"] .dua-category,:root[data-theme="dark"] .learn-card,:root[data-theme="dark"] .note-card,:root[data-theme="dark"] .bookmark-list,:root[data-theme="dark"] .tafsir-content-panel,:root[data-theme="dark"] .tafsir-verse-context{background:var(--white);border-color:var(--line);color:var(--ink)}
+:root[data-theme="dark"] .quote-card p,:root[data-theme="dark"] .subheading,:root[data-theme="dark"] .habit-info span,:root[data-theme="dark"] .section-heading p,:root[data-theme="dark"] .stat-card small,:root[data-theme="dark"] .panel-head p,:root[data-theme="dark"] .date-chip,:root[data-theme="dark"] .breadcrumb,:root[data-theme="dark"] .library-meaning,:root[data-theme="dark"] .dua-meaning,:root[data-theme="dark"] .note-card p,:root[data-theme="dark"] .reader-credit,:root[data-theme="dark"] .reader-source-line,:root[data-theme="dark"] .profile-large p{color:#a5b1a6}
+:root[data-theme="dark"] .habit-info strong,:root[data-theme="dark"] .panel-head h3,:root[data-theme="dark"] .section-heading h2,:root[data-theme="dark"] .stat-card strong,:root[data-theme="dark"] .manage-card strong,:root[data-theme="dark"] .profile-large h2,:root[data-theme="dark"] .note-card h3,:root[data-theme="dark"] .learn-card strong,:root[data-theme="dark"] .dua-category strong{color:var(--ink)}
+:root[data-theme="dark"] .topbar,:root[data-theme="dark"] .history-panel,:root[data-theme="dark"] .quran-verse,:root[data-theme="dark"] .tasbeeh-history-row{border-color:var(--line)}
+:root[data-theme="dark"] .icon-button,:root[data-theme="dark"] .day-nav,:root[data-theme="dark"] .small-action,:root[data-theme="dark"] .verse-action,:root[data-theme="dark"] .reader-mode.selected,:root[data-theme="dark"] .range-select,:root[data-theme="dark"] .text-input,:root[data-theme="dark"] .mushaf-script-label select,:root[data-theme="dark"] .mushaf-pagination select,:root[data-theme="dark"] .auth-field input{background:#202b23;border-color:#354338;color:var(--ink)}
+:root[data-theme="dark"] .button.secondary,:root[data-theme="dark"] .reader-modes,:root[data-theme="dark"] .reader-mode,:root[data-theme="dark"] .ayah-number,:root[data-theme="dark"] .word-context,:root[data-theme="dark"] .insight-note,:root[data-theme="dark"] .progress-strip,:root[data-theme="dark"] .prayer-time,:root[data-theme="dark"] .prayer-symbol,:root[data-theme="dark"] .continue-mark,:root[data-theme="dark"] .habit-symbol,:root[data-theme="dark"] .surah-ornament,:root[data-theme="dark"] .small-action:hover{background:#263329;color:#c2d1b7}
+:root[data-theme="dark"] .text-input::placeholder,:root[data-theme="dark"] .reader-search input::placeholder{color:#849187}
+:root[data-theme="dark"] .text-input:focus,:root[data-theme="dark"] .auth-field input:focus{border-color:#91a47f}
+:root[data-theme="dark"] .reader-search,:root[data-theme="dark"] .spiritual-search{background:#1b251e;border-color:var(--line);color:#b1bcae}
+:root[data-theme="dark"] .reader-search input,:root[data-theme="dark"] .spiritual-search input{background:transparent;color:var(--ink)}
+:root[data-theme="dark"] .reader-mode.selected{color:#d8e4cf}
+:root[data-theme="dark"] .surah-title h2,:root[data-theme="dark"] .surah-arabic,:root[data-theme="dark"] .verse-translation,:root[data-theme="dark"] .arabic-verse{color:#e0e9df}
+:root[data-theme="dark"] .mushaf-book-page{background:#1d211b;border-color:#4b4939;box-shadow:inset 0 0 0 6px #28291f,0 8px 25px #0005}
+:root[data-theme="dark"] .mushaf-page-heading,:root[data-theme="dark"] .mushaf-page-number{border-color:#403f34;color:#b8c39f}
+:root[data-theme="dark"] .mushaf-page-text,:root[data-theme="dark"] .mushaf-page-text .mushaf-ayah{color:#eee9d9}
+:root[data-theme="dark"] .mushaf-page-text .mushaf-ayah-marker{color:#c2cf8e}
+:root[data-theme="dark"] .hadith-card{background:#202b23;border-color:#2e3c31}
+:root[data-theme="dark"] .hadith-card blockquote,:root[data-theme="dark"] .daily-note-card p{color:#d5e0d4}
+:root[data-theme="dark"] .hadith-mark{color:#364639}
+:root[data-theme="dark"] .tasbeeh-tap{background:linear-gradient(145deg,#26342a,#202b23);border-color:#354438;color:#d0dfbe}
+:root[data-theme="dark"] .tasbeeh-name,:root[data-theme="dark"] .tasbeeh-hint,:root[data-theme="dark"] .tasbeeh-history-row time,:root[data-theme="dark"] .tasbeeh-history-row span{color:#a5b1a5}
+:root[data-theme="dark"] .tasbeeh-count,:root[data-theme="dark"] .tasbeeh-history-row strong{color:#e2ebdf}
+:root[data-theme="dark"] .tasbeeh-history-list{background:#19221c}
+:root[data-theme="dark"] .auth-root{background:radial-gradient(ellipse at 78% 16%,#26372a 0,transparent 34%),radial-gradient(ellipse at 15% 84%,#202f27 0,transparent 32%),#111813}
+:root[data-theme="dark"] .auth-card{background:#19221c;border-color:#2b382e}
+:root[data-theme="dark"] .auth-card h1,:root[data-theme="dark"] .auth-field label{color:var(--ink)}
+:root[data-theme="dark"] .auth-intro,:root[data-theme="dark"] .auth-footer,:root[data-theme="dark"] .auth-note{color:#a1afa4}
+:root[data-theme="dark"] .auth-divider{background:#2a372e}
+:root[data-theme="dark"] .learn-entry,:root[data-theme="dark"] .dua-feature-banner,:root[data-theme="dark"] .streak-banner{border-color:#354438}
+:root[data-theme="dark"] .streak-banner{background:#20382c}
+:root[data-theme="dark"] .library-tabs{background:#202b23}
+:root[data-theme="dark"] .library-tabs button{color:#a7b3a6}
+:root[data-theme="dark"] .library-tabs button.selected{background:#304135;color:#e2eadf}
+:root[data-theme="dark"] .library-arabic,:root[data-theme="dark"] .dua-arabic{color:#e1eadf}
+:root[data-theme="dark"] .adhkar-evidence{border-color:#354338;background:#202a22;color:#c2cdc1}
+:root[data-theme="dark"] .quote-source,:root[data-theme="dark"] .eyebrow,:root[data-theme="dark"] .nav-label{color:#9ba995}
+:root[data-theme="dark"] .progress-track,:root[data-theme="dark"] .category-track,:root[data-theme="dark"] .history-dot{background:#2b372e}
+:root[data-theme="dark"] .progress-ring:before{background:#263329}
+:root[data-theme="dark"] .toast{background:#c3d3b0;color:#18231b}
+:root[data-theme="dark"] .reward-card,:root[data-theme="dark"] .reward-share-panel{background:#19221c;border-color:#2b372e;color:#e4ebe4}
+:root[data-theme="dark"] .reward-card.locked{background:#172019}
+:root[data-theme="dark"] .reward-card-copy h3,:root[data-theme="dark"] .reward-progress-top h2{color:#e4ebe4}
+:root[data-theme="dark"] .reward-card-copy p,:root[data-theme="dark"] .reward-rule,:root[data-theme="dark"] .reward-share-panel>p{color:#a5b1a6}
+:root[data-theme="dark"] .reward-medal{background:#2b372e;color:#aab6a5}
+:root[data-theme="dark"] .reward-card.unlocked .reward-medal{border-color:#ffffff38;color:#fff}
+:root[data-theme="dark"] .reward-name-toggle{color:#c0cdc0}
+:root[data-theme="dark"] .reward-tier,:root[data-theme="dark"] .reward-lock{color:#a1afa2}
+:root[data-theme="dark"] .collection-detail-title,:root[data-theme="dark"] .adhkar-session,:root[data-theme="dark"] .adhkar-session-progress,:root[data-theme="dark"] .dua-banner-art{background:#202b23;border-color:#354238;color:#dce6d8}
+:root[data-theme="dark"] .adhkar-session h2,:root[data-theme="dark"] .dua-feature-banner h2,:root[data-theme="dark"] .collection-detail-title h2,:root[data-theme="dark"] .library-heading h2{color:#e1e9df}
+:root[data-theme="dark"] .adhkar-session p,:root[data-theme="dark"] .collection-detail-title p,:root[data-theme="dark"] .dua-feature-banner p{color:#aab6a9}
+:root[data-theme="dark"] .collection-illustration,:root[data-theme="dark"] .book-mark,:root[data-theme="dark"] .learn-card-icon,:root[data-theme="dark"] .learn-entry-mark,:root[data-theme="dark"] .routine-mark{background:#2a382d;border-color:#3a4a3d;color:#c2d1b3}
+:root[data-theme="dark"] .art-olive,:root[data-theme="dark"] .art-moon,:root[data-theme="dark"] .art-stars,:root[data-theme="dark"] .art-night,:root[data-theme="dark"] .art-sun,:root[data-theme="dark"] .art-sunrise,:root[data-theme="dark"] .art-rain,:root[data-theme="dark"] .art-flower,:root[data-theme="dark"] .art-heart,:root[data-theme="dark"] .art-home,:root[data-theme="dark"] .art-people,:root[data-theme="dark"] .art-shield,:root[data-theme="dark"] .art-compass,:root[data-theme="dark"] .art-book,:root[data-theme="dark"] .art-kaaba,:root[data-theme="dark"] .art-mosque,:root[data-theme="dark"] .art-beads,:root[data-theme="dark"] .art-travel{background:#2a382d;color:#bdcfae}
+:root[data-theme="dark"] .learn-entry{background:linear-gradient(110deg,#202b23,#19221c);color:#dce8d7}
+:root[data-theme="dark"] .dua-feature-banner{background:linear-gradient(115deg,#222b22 0%,#1d281f 65%,#253129 100%)}
+:root[data-theme="dark"] .dua-feature-banner:after{border-color:#384336;box-shadow:0 0 0 10px #232b22,0 0 0 11px #3a4335,0 0 0 25px #20271f,0 0 0 26px #3a4335}
+:root[data-theme="dark"] .counter-orbit{background:linear-gradient(145deg,#2b382d,#202b23);border-color:#3a493b;color:#e0eadb}
+:root[data-theme="dark"] .counter-orbit circle{stroke:#465644}
+:root[data-theme="dark"] .entry-progress{background:#2a362c}
+:root[data-theme="dark"] .bookmark-link{background:#263329;border-color:#3a4a3d;color:#c5d3b8}
+:root[data-theme="dark"] .prayer-time span,:root[data-theme="dark"] .continue-copy span,:root[data-theme="dark"] .source-note,:root[data-theme="dark"] .reader-loading,:root[data-theme="dark"] .reader-empty{color:#a5b1a6}
+:root[data-theme="dark"] .collection-copy strong,:root[data-theme="dark"] .collection-copy b,:root[data-theme="dark"] .dua-category small{color:#c2d1bd}
+:root[data-theme="dark"] .collection-copy small{color:#a0ada0}
+:root[data-theme="dark"] .library-tabs{border-color:#354238}
+:root[data-theme="dark"] .library-entry-heading .adhkar-count-label,:root[data-theme="dark"] .library-counter{color:#c2d1b3}
+:root[data-theme="dark"] .entry-progress span{background:#a3b98d}
+:root[data-theme="dark"] .reward-share-panel .panel-head h3{color:#e4ebe4}
+:root[data-theme="dark"] .mushaf-book-page .tajweed-edition-label{color:#c6d2aa}
+:root[data-theme="dark"] .insight-note p,:root[data-theme="dark"] .insight-note strong{color:#c7d4c5}
+:root[data-theme="dark"] .bookmark-list p,:root[data-theme="dark"] .dua-category-label{background:#2a382d;color:#c4d1b8}
+:root[data-theme="dark"] .reader-source-line a,:root[data-theme="dark"] .hadith-source a{color:#b7d0ac}
+:root[data-theme="dark"] .learn-source-note,:root[data-theme="dark"] .book-source,:root[data-theme="dark"] .note-card time{color:#9eac9e}
+:root[data-theme="dark"] .quran-page .verse-action.saved,:root[data-theme="dark"] .dua-bookmark.saved{background:#3a2c25;border-color:#694838;color:#efb79c}
+:root[data-theme="dark"] .profile .avatar,:root[data-theme="dark"] .avatar{background:#2b382e;color:#d2dfc4}
+:root[data-theme="dark"] .main-content{color:var(--ink)}
+:root[data-theme="dark"] .book-card,:root[data-theme="dark"] .quran-verse,:root[data-theme="dark"] .mushaf-page{background:#19221c;border-color:#2b372e;color:#e4ebe4}
+:root[data-theme="dark"] .habit-dialog{background:#19221c;border-color:#354238;color:#e4ebe4}
+:root[data-theme="dark"] .habit-dialog .field-label,:root[data-theme="dark"] .habit-dialog .dialog-heading h2{color:#dce6da}
+:root[data-theme="dark"] .close-button,:root[data-theme="dark"] .icon-choice{background:#263329;border-color:#354238;color:#c9d6c0}
+:root[data-theme="dark"] .icon-choice.selected,:root[data-theme="dark"] .check-button.partial{background:#39472d;border-color:#667c4d;color:#d5e3b8}
+:root[data-theme="dark"] .check-button{background:#1b251e;border-color:#405043}
+:root[data-theme="dark"] .check-button.done{background:#55745b;border-color:#789477}
+:root[data-theme="dark"] .progress-ring{background:conic-gradient(#a3bb8d var(--progress),#2b372e 0)}
+:root[data-theme="dark"] .progress-ring:before{background:#19221c}
+:root[data-theme="dark"] .history-dot.low{background:#3b4d3b}
+:root[data-theme="dark"] .history-dot.mid{background:#596f4d}
+:root[data-theme="dark"] .history-dot.high{background:#86a277}
+:root[data-theme="dark"] .dhikr-feature,:root[data-theme="dark"] .dua-card,:root[data-theme="dark"] .routine-card{background:linear-gradient(115deg,#202a22,#19221c);border-color:#354238;color:#e4ebe4}
+:root[data-theme="dark"] .spiritual-chip,:root[data-theme="dark"] .spiritual-chip.selected{background:#29362c;border-color:#39473a;color:#c3d1b9}
+:root[data-theme="dark"] .library-tabs button.selected,:root[data-theme="dark"] .reader-mode.selected{background:#354538;color:#e3ecdf}
+:root[data-theme="dark"] .dua-category-label{background:#2c392e;color:#c4d2b8}
+:root[data-theme="dark"] .auth-message{background:#29372c;color:#c4d7b7}
+:root[data-theme="dark"] .auth-message.error{background:#3b2924;color:#efb9a6}
+:root[data-theme="dark"] .auth-setup{background:#202b23;color:#c0cec0}
+:root[data-theme="dark"] .insight-note{border-color:#2b392d}
+:root[data-theme="dark"] .category-track{background:#2c382f}
+:root[data-theme="dark"] .history-dot{border:1px solid #39463b}
+:root[data-theme="dark"] .reader-source-line a,:root[data-theme="dark"] .hadith-source a,:root[data-theme="dark"] .book-source{color:#b8d0a9}
+:root[data-theme="dark"] .learn-card span,:root[data-theme="dark"] .learn-card b,:root[data-theme="dark"] .book-copy small{color:#aab7aa}
+:root[data-theme="dark"] .auth-link,:root[data-theme="dark"] .text-button,:root[data-theme="dark"] .library-counter small{color:#b9cda9}
+:root[data-theme="dark"] .dua-bookmark{background:#202b23;border-color:#3a493b;color:#c1d0b4}
+:root[data-theme="dark"] .dua-bookmark.saved{background:#3a2c25;border-color:#694838;color:#efb79c}
+:root[data-theme="dark"] .tafsir-content blockquote{background:#222d25;border-left-color:#687d58;color:#c5d1c4}
+:root[data-theme="dark"] .arabic-word:hover,:root[data-theme="dark"] .arabic-word.word-focused{background:#354333;color:#e2e9d8}
+:root[data-theme="dark"] .tasbeeh-progress{background:#344234}
+:root[data-theme="dark"] .tasbeeh-progress i{background:#a1b88a}
+:root[data-theme="dark"] .tasbeeh-history-row:last-child{border-bottom-color:transparent}
+:root[data-theme="dark"] .mushaf-page{box-shadow:inset 0 0 0 5px #28291f}
+:root[data-theme="dark"] .streak-count{border-left-color:#ffffff35}
+:root[data-theme="dark"] .progress-copy span,:root[data-theme="dark"] .category-row,:root[data-theme="dark"] .history-row{color:#aab6aa}
+:root[data-theme="dark"] .category-row b{color:#c2d0bd}
+:root[data-theme="dark"] .small-action.delete:hover{background:#3b2924;color:#efb9a6}
+:root[data-theme="dark"] .dialog-heading .eyebrow,:root[data-theme="dark"] .field-label{color:#b9c7b9}
+:root[data-theme="dark"] .tafsir-content-panel{background:#19221c;border-color:#2b372e;color:#d7e1d6}
+:root[data-theme="dark"] .tafsir-verse-context{background:#202b23;border-color:#354238}
+:root[data-theme="dark"] .tafsir-context-reference{color:#bdcfaa}
+:root[data-theme="dark"] .tafsir-context-arabic{color:#eee9d9}
+:root[data-theme="dark"] .tafsir-context-translation{color:#d2ddd2}
+:root[data-theme="dark"] .tafsir-source-heading{border-color:#354238}
+:root[data-theme="dark"] .tafsir-source-heading h2,:root[data-theme="dark"] .tafsir-content h1,:root[data-theme="dark"] .tafsir-content h2,:root[data-theme="dark"] .tafsir-content h3,:root[data-theme="dark"] .tafsir-content h4{color:#e3ece0}
+:root[data-theme="dark"] .tafsir-source-heading h2 span{color:#aeb9ad}
+:root[data-theme="dark"] .tafsir-source-mark{color:#c2cf9b}
+:root[data-theme="dark"] .tafsir-content{color:#d2ddd2}
+:root[data-theme="dark"] .tafsir-content blockquote{background:#222d25;border-left-color:#8da77d;color:#d3dfd2}
+:root[data-theme="dark"] .tafsir-attribution{border-color:#354238;color:#aab6a9}
+:root[data-theme="dark"] .tafsir-attribution a{color:#b8d0a9}
+:root[data-theme="dark"] .tafsir-error{color:#e2b6a8}
